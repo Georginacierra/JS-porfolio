@@ -1,0 +1,30 @@
+/* bg */
+
+.exercise-box {
+  background-color: var(--background-accent);
+}
+
+/* timer box */
+
+.timer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.timer-box div {
+  border: solid 2.5px var(--primary);
+  border-radius: var(--soft-border);
+  padding: 20px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#number-countdown {
+  text-align: center;
+}

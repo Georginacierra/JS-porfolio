@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devine le nombre</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/exercise06.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- js -->
+    <script src="../js/exercise06.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Georgina Cierra</h1>
+        <ul class="nav-links">
+          <li><a href="./index.html#mes-projects">&#8592 Mes projets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="exercise-box">
+      <div class="container box-content">
+        <div class="box-text">
+          <h2>
+            Devine  <br />
+            <span class="text-primary">le nombre</span>
+          </h2>
+
+          <p>
+            Voici le jeu du nombre mystère : entrez une valeur et cliquez sur "Valider" pour savoir si le nombre est trop haut, trop bas ou correct.
+          </p>
+        </div>
+
+        <div class="box-img">
+          <img
+            src="../assets/img/devine-doodle.webp"
+            alt="Illustration of man with counter"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="number-box">
+      <form id="guess-form" action="">
+        <div class="label-box">
+          <label id="text-label" for="guessInput">Indiquer le nombre (de 1 à 10) :</label>
+          <input type="text" name="guessInput" id="text-input" />
+        </div>
+        
+        <div class="buttons-box">
+          <button type="submit" id="guess-Button" class="btn-primary">Deviner</button>
+          <button id="reset-button" class="btn-secondary">réinisialiser</button>
+        </div>
+        
+      </form>
+
+      <div>
+        <p id="message"></p>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+    <div class="footer-content">
+    <p>&copy; 2026 Georgina <span class="text-primary">Cierra</span></p>
+    <p>Illustrations : Open Doodles by <a href="https://www.opendoodles.com/" target="_blank">Pablo Stanley</a>.</p>
+    </div>
+  </footer>
+  </body>
+</html>

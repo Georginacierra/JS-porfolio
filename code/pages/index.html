@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/exercise01.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- js -->
+    <script src="../js/exercise01.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Georgina Cierra</h1>
+        <ul class="nav-links">
+          <li><a href="#mes-projects">Mes projets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h2>
+              Bienvenue sur <br />
+              <span class="text-primary">mon JS portfolio</span>
+            </h2>
+
+            <p>Explorez mes techniques et compétences en JavaScript</p>
+
+            <a href="#tech-section" class="btn-primary">Voir techs</a>
+            <a href="#mes-projects" class="btn-accent">Voir mes projets</a>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="../assets/img/hero-image.webp"
+              alt="Illustration of a girl holding plants"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- TECH SECTION -->
+    <section class="techs" id="tech-section">
+      <div class="container techs-content">
+        <div class="techs-image">
+          <img
+            src="../assets/img/glasses-girl.webp"
+            alt="Girl running illustration"
+          />
+        </div>
+
+        <div class="techs-text">
+          <h2>
+            <span class="text-primary">JavaScript</span><br />
+            Exercises
+          </h2>
+
+          <p>Les exercices présentés sont développés en utilisant HTML, CSS et JavaScript vanilla</p>
+
+          <div class="tech-icons">
+            <img src="../assets/img/icons.png" alt="HTML CSS JS icons" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="mes-projects">
+      <h2 class="projects-title">
+        My <span class="text-primary">Projects</span>
+      </h2>
+      <div class="container">
+        <div class="projects-grid">
+          <!-- 01 -->
+          <div class="project-item">
+            <div class="project-image">
+              <img src="../assets/img/magic-button.webp" alt="Magic button" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">01</span>
+              <h3>Bouton magique</h3>
+              <p>
+                Voici le bouton magique, découvrez ce que cache le bouton en cliquant sur "cliquez sur moi".
+              </p>
+              <a href="./exercise01.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 02 -->
+          <div class="project-item reverse">
+            <div class="project-image">
+              <img src="../assets/img/liste.webp" alt="Liste de courses" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">02</span>
+              <h3>Liste de courses dynamique</h3>
+              <p>
+                Voici la liste de courses dynamic : créez un champ de texte, un
+                bouton "Ajouter" et une liste vide. À chaque clic, le texte
+                saisi est ajouté dynamiquement à la liste.
+              </p>
+              <a href="./exercise02.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 03 -->
+          <div class="project-item">
+            <div class="project-image">
+              <img src="../assets/img/counter.webp" alt="Counter" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">03</span>
+              <h3>Compteur interactif</h3>
+              <p>
+                Voici le compteur dynamic : un exercice pour manipuler les
+                événements en JavaScript. Cliquez sur "+" pour incrémenter le
+                nombre et sur "-" pour le décrémenter.
+              </p>
+              <a href="./exercise03.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 04 -->
+          <div class="project-item reverse">
+            <div class="project-image">
+              <img src="../assets/img/gallery.webp" alt="man with phone ilustration with Gallery icons" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">04</span>
+              <h3>Galerie photo</h3>
+              <p>
+                Voici la galerie dynamique : un exercice pour manipuler les
+                événements. Cliquez sur une miniature et l’image s’affiche
+                instantanément en grand.
+              </p>
+              <a href="./exercise04.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 05 -->
+          <div class="project-item">
+            <div class="project-image">
+              <img src="../assets/img/progress-bar.webp" alt="man listening to music illustration and Progress bar graphic" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">05</span>
+              <h3>Barre de progression</h3>
+              <p>
+                Voici la barre de progression dynamique : utilisez le bouton
+                "Avancer" pour remplir la barre étape par étape.
+              </p>
+              <a href="./exercise05.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 06 -->
+          <div class="project-item reverse">
+            <div class="project-image">
+              <img
+                src="../assets/img/guess-the-number.webp"
+                alt="man walking ilustration, numbers and question mark symbol"
+              />
+            </div>
+            <div class="project-text">
+              <span class="project-number">06</span>
+              <h3>Devine le nombre</h3>
+              <p>
+                Voici le jeu du nombre mystère : entrez une valeur et cliquez
+                sur "Valider" pour savoir si le nombre est trop haut, trop bas
+                ou correct.
+              </p>
+              <a href="./exercise06.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+      
+
+        <!-- 07 -->
+          <div class="project-item">
+            <div class="project-image">
+              <img src="../assets/img/menu.webp" alt="woman with dog ilustration and burguer menu icon" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">07</span>
+              <h3>Menu déroulant</h3>
+              <p>
+                Voici le menu déroulant : cliquez dessus pour afficher les onglets disponibles.
+              </p>
+              <a href="./exercise07.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 08 -->
+          <div class="project-item reverse">
+            <div class="project-image">
+              <img
+                src="../assets/img/cronometer.webp"
+                alt="woman sitting ilustration with clock icon"
+              />
+            </div>
+            <div class="project-text">
+              <span class="project-number">08</span>
+              <h3>Chronomètre</h3>
+              <p>
+                Voici le chronomètre pour mesurer tes efforts. Clique sur "Démarrer" pour commencer à chronométrer ou pour le réinitialiser.
+              </p>
+              <a href="./exercise08.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 09 -->
+          <div class="project-item">
+            <div class="project-image">
+              <img src="../assets/img/timer-frame.webp" alt="Sitting woman illustration with timer icon" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">09</span>
+              <h3>Minuteur (countdown)</h3>
+              <p>
+                10 secondes pile ! Clique sur "Go" et lance ton minuteur de confiance.
+              </p>
+              <a href="./exercise09.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 10 -->
+          <div class="project-item reverse">
+            <div class="project-image">
+              <img
+                src="../assets/img/guess-the-number.webp"
+                alt="Guess number"
+              />
+            </div>
+            <div class="project-text">
+              <span class="project-number">10</span>
+              <h3>Validation de formulaire</h3>
+              <p>
+                Voici le formulaire à remplir ; une fois terminé, cliquez sur valider.
+              </p>
+              <a href="./exercise10.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 11 -->
+          <div class="project-item">
+            <div class="project-image">
+              <img src="../assets/img/calculator.webp" alt="lay down man with a calculator illustration" />
+            </div>
+            <div class="project-text">
+              <span class="project-number">11</span>
+              <h3>Calculatrice basique</h3>
+              <p>
+                Voici une calculatrice performante. Effectue les calculs de ton choix : addition, soustraction, multiplication, division.
+              </p>
+              <a href="./exercise11.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+
+          <!-- 12 -->
+          <div class="project-item reverse">
+            <div class="project-image">
+              <img
+                src="../assets/img/digicode.webp"
+                alt="Guess number"
+              />
+            </div>
+            <div class="project-text">
+              <span class="project-number">12</span>
+              <h3>Digicode</h3>
+              <p>
+                Déviner le code secret Digicode pour entrer dans le musée du Louvre.
+              </p>
+              <a href="./exercise12.html" 
+                ><img
+                  src="../assets/img/link-icon.png"
+                  alt="redirection-link-icon"
+                  class="icon-link"
+              /></a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+<!-- footer -->
+    <footer>
+    <div class="footer-content">
+    <p>&copy; 2026 Georgina <span class="text-primary">Cierra</span></p>
+    <p>Illustrations : Open Doodles by <a href="https://www.opendoodles.com/" target="_blank">Pablo Stanley</a>.</p>
+    </div>
+  </footer>
+  </body>
+</html>

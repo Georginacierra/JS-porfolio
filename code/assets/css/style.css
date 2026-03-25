@@ -1,0 +1,420 @@
+:root {
+  /* COLORS */
+  --primary: #ff5678;
+  --secondary: #98e8f1;
+  --white: #fffcfc;
+  --background: #f4f4f4;
+  --background-accent: #fef075;
+  --background-nude: #e4d1b1;
+  --dark: #212020;
+
+  /* TYPOGRAPHY */
+  --h1-size: 48px;
+  --h2-size: 32px;
+  --h3-size: 20px;
+  --p-normal: 16px;
+  --p-small: 14px;
+
+  --font-family: "Poppins", sans-serif;
+
+  /* SPACING */
+  --section-padding: 80px 0;
+  --container-width: 1200px;
+  --soft-border: 10px;
+}
+
+/* general */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  color: var(--dark);
+}
+
+.container {
+  width: 90%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* buttons */
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: var(--soft-border);
+  text-decoration: none;
+  font-size: var(--p-small);
+  font-weight: 500;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: var(--secondary);
+  color: var(--dark);
+  padding: 12px 24px;
+  border-radius: var(--soft-border);
+  text-decoration: none;
+  font-size: var(--p-small);
+  font-weight: 500;
+  border-style: none;
+}
+
+.btn-accent {
+  display: inline-block;
+  background-color: var(--background-accent);
+  color: var(--dark);
+  padding: 12px 24px;
+  border-radius: var(--soft-border);
+  text-decoration: none;
+  font-size: var(--p-small);
+  font-weight: 500;
+  border-style: none;
+}
+
+/* NAV BAR */
+
+.header {
+  background-color: var(--white);
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: var(--h3-size);
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+/* HERO SECTION */
+
+.hero {
+  background-color: var(--secondary);
+  padding: var(--section-padding);
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: var(--h1-size);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: var(--p-normal);
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 450px;
+}
+
+/* section techs */
+
+.techs {
+  background-color: var(--background);
+  padding: var(--section-padding);
+}
+
+.techs-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.techs-image {
+  flex: 1;
+}
+
+.techs-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.techs-text {
+  flex: 1;
+}
+
+.techs-text h2 {
+  font-size: var(--h1-size);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.techs-text p {
+  font-size: var(--p-normal);
+  margin-bottom: 30px;
+}
+
+.tech-icons img {
+  width: 200px;
+}
+
+/* general exercise box style */
+
+/* Exercise */
+
+.exercise-box {
+  padding: var(--section-padding);
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.box-text {
+  flex: 1;
+}
+
+.box-text h2 {
+  font-size: var(--h1-size);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.box-text p {
+  font-size: var(--p-normal);
+  margin-bottom: 30px;
+}
+
+.box-img {
+  flex: 1;
+  text-align: right;
+}
+
+.box-img img {
+  width: 100%;
+  max-width: 450px;
+}
+
+/* footer */
+
+footer {
+  padding: 40px 0;
+  border-top: 1px solid var(--dark);
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: var(--p-small);
+  color: var(--dark);
+}
+
+.footer-content a {
+  color: var(--dark);
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+/* projects sections */
+
+.projects {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.projects-title {
+  background-color: var(--secondary);
+  color: var(--dark);
+  text-align: center;
+  font-size: var(--h1-size);
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.project-item:last-child {
+  padding-bottom: 100px;
+}
+
+.project-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  flex: 1;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-number {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 32px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project-text h3 {
+  font-size: var(--h2-size);
+  margin-bottom: 10px;
+}
+
+.project-text p {
+  font-size: var(--p-normal);
+  color: #dcdcdc;
+  max-width: 400px;
+}
+
+.icon-link {
+  width: 30px;
+  margin: 20px 0;
+}
+
+/************ RESPONSIVE *************/
+
+/* hero responsive */
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .hero-text h2 {
+    font-size: 36px;
+  }
+
+  techs sections .techs-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .techs-image img {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .techs-text h2 {
+    font-size: 32px;
+  }
+
+  .tech-icons img {
+    width: 150px;
+  }
+
+  /* projects sections */
+
+  .project-item,
+  .project-item.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-image img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .project-text p {
+    margin: 0 auto;
+  }
+
+  .projects-title {
+    font-size: 36px;
+  }
+
+  .project-number {
+    font-size: 28px;
+  }
+
+  /* exercise box responsive */
+  .box-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .box-img {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .box-text h2 {
+    font-size: 36px;
+  }
+}

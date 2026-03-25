@@ -1,0 +1,56 @@
+.exercise-box {
+  background-color: var(--background-nude);
+}
+
+/* photo box */
+.photo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.content-photo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 90%;
+  max-width: var(--container-width);
+}
+
+/* gallery styles */
+
+#preview-gallery img {
+  width: 150px;
+}
+
+#preview-gallery img:hover {
+  border: 1px var(--primary);
+}
+
+#show-photo img {
+  width: 300px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .photo-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #preview-gallery img {
+    width: 80px;
+  }
+
+  .content-photo {
+    display: flex;
+    gap: 30px;
+  }
+  #show-photo img {
+    margin-top: 20px;
+    width: 200px;
+  }
+}

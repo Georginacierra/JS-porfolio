@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galerie photo</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/exercise04.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- js -->
+    <script src="../js/exercise04.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Georgina Cierra</h1>
+        <ul class="nav-links">
+          <li><a href="./index.html#mes-projects">&#8592 Mes projets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="exercise-box">
+      <div class="container box-content">
+        <div class="box-text">
+          <h2>
+          Galerie<br />
+            <span class="text-primary">photo</span>
+          </h2>
+
+          <p>
+            Voici la galerie dynamique : un exercice pour manipuler les événements. Cliquez sur une miniature et l’image s’affiche instantanément en grand.
+          </p>
+        </div>
+
+        <div class="box-img">
+          <img
+            src="../assets/img/photo-doodle.webp"
+            alt="Illustration of man with counter"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-box">
+      <div id="preview-gallery" class="content-photo">
+        <img src="../assets/img/harry.webp" alt="harry potter portrait" />
+        <img src="../assets/img/hermionie.webp" alt="hermionie granger portrait" />
+        <img src="../assets/img/run.webp" alt="Ron Weasley portrait" />
+      </div>
+
+      <div id="show-photo"></div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+    <div class="footer-content">
+    <p>&copy; 2026 Georgina <span class="text-primary">Cierra</span></p>
+    <p>Illustrations : Open Doodles by <a href="https://www.opendoodles.com/" target="_blank">Pablo Stanley</a>.</p>
+    </div>
+  </footer>
+  </body>
+</html>

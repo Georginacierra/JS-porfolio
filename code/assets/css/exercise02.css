@@ -1,0 +1,48 @@
+.exercise-box {
+  background-color: var(--background-accent);
+}
+
+/* list box */
+
+.list-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: var(--container-width);
+}
+
+.content-list input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.content-list input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: var(--dark);
+}
+
+.my-list {
+  margin-top: 40px;
+  width: 100;
+  border-top: 3px solid var(--background-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-list h3 {
+  margin-bottom: 10px;
+}

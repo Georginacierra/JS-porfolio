@@ -1,0 +1,74 @@
+/* bg */
+
+.exercise-box {
+  background-color: var(--background-nude);
+}
+
+/* cal-box */
+
+.cal-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+/* calculator syle */
+
+.button {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button-special {
+  background-color: var(--secondary);
+  color: var(--dark);
+  font-size: 26px;
+  font-weight: 700;
+  border: none;
+}
+
+.button-special:hover {
+  filter: brightness(0.9);
+}
+
+#container {
+  background: var(--primary);
+  width: 350px;
+  border-radius: var(--soft-border);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.number {
+  background: var(--dark);
+  color: var(--white);
+  border: none;
+}
+.number:hover {
+  background: var(--background-accent);
+  color: var(--dark);
+}
+
+#output {
+  width: 320px;
+  height: 80px;
+  padding: 5px;
+  font-size: var(--h2-size);
+  font-weight: 700;
+  color: var(--dark);
+  text-align: right;
+  background-color: var(--white);
+  border: none;
+}
+

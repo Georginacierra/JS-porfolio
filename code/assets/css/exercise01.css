@@ -1,0 +1,40 @@
+/* button box */
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.content-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: var(--container-width);
+}
+
+#btn-magic {
+  display: inline-block;
+  background-color: var(--secondary);
+  color: var(--dark);
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: var(--p-small);
+  font-weight: 500;
+  border-style: none;
+}
+
+.img-prince {
+  width: 200px;
+  margin-top: 20px;
+}
+
+
+.exercise-box {
+  background-color: var(--secondary);
+}

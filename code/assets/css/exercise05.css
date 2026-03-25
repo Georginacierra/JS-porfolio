@@ -1,0 +1,78 @@
+.exercise-box {
+  background-color: var(--background-accent);
+}
+
+/* bar box */
+.bar-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--primary);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  max-width: 400px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: var(--background-nude);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--background-nude);
+  border-radius: 10px;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  max-width: 500px;
+  height: 25px;
+  border: none;
+  border-radius: var(--progress-radius);
+  background-color: var(--background-nude);
+  margin-block: 20px 30px;
+}
+
+/* Chrome/Safari/Edge */
+progress::-webkit-progress-bar {
+  background-color: var(--background-nude);
+  border-radius: var(--progress-radius);
+}
+
+/* Chrome/Safari/Edge */
+progress::-webkit-progress-value {
+  background-color: var(--primary);
+  border-radius: var(--progress-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s ease; /* Optionnel : rend le mouvement fluide */
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+  background-color: var(--primary);
+  border-radius: var(--progress-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  progress {
+    max-width: 300px;
+  }
+}

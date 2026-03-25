@@ -1,0 +1,106 @@
+/* bg */
+
+.exercise-box {
+  background-color: var(--background-accent);
+}
+
+/* digi-box */
+
+.digi-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/fond-digicode.webp") no-repeat center center/cover;
+  min-height: 30vh;
+}
+
+.digi-box > div {
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: var(--soft-border);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border: 2px solid var(--dark);
+}
+
+#scren-result {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#screen-result input {
+  width: 100%;
+  padding: 15px;
+  font-size: var(--p-normal);
+  text-align: center;
+  letter-spacing: 10px;
+  border-radius: var(--soft-border);
+  border: none;
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#message {
+  height: 20px;
+  margin-top: 10px;
+  font-size: var(--p-small);
+  font-weight: 600;
+}
+
+#keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 colonnes */
+  gap: 15px;
+}
+
+#keypad input[type="button"] {
+  width: 60px;
+  height: 60px;
+  font-size: var(--p-normal);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--background-nude);
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 0 var(--background-accent);
+}
+
+.code-pad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-pad button {
+  margin-top: 30px;
+}
+
+/* message */
+
+#message {
+  color: var(--dark);
+  font-weight: 700;
+  margin: 20px;
+  text-align: center;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .digi-box {
+    background: url("../img/fond-digicode-mobile.webp") no-repeat center
+      center/cover;
+  }
+}

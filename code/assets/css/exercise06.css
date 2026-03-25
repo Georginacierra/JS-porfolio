@@ -1,0 +1,37 @@
+.exercise-box {
+  background-color: var(--secondary);
+}
+
+.number-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.label-box {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+#text-input {
+  background-color: var(--background-nude);
+  padding: 10px;
+  margin-left: 10px;
+  border-style: none;
+  width: 60px;
+  border-radius: var(--soft-border);
+}

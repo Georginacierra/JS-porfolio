@@ -1,0 +1,22 @@
+.timer-container {
+  display: flex;
+}
+/* bg */
+.exercise-box {
+  background-color: var(--secondary);
+}
+
+/* counter box */
+
+.timer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.timer-container {
+  font-size: 40px;
+}
