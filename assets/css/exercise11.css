@@ -64,11 +64,10 @@
   width: 320px;
   height: 80px;
   padding: 5px;
-  font-size: var(--h2-size);
+  font-size: 26px;
   font-weight: 700;
   color: var(--dark);
   text-align: right;
   background-color: var(--white);
   border: none;
 }
-
